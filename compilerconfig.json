@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "scss/ionic.app.css",
+    "inputFile": "scss/ionic.app.scss"
+  },
+  {
+    "outputFile": "www/lib/ionic/scss/_variables.css",
+    "inputFile": "www/lib/ionic/scss/_variables.scss"
+  },
+  {
+    "outputFile": "www/Gruntfile.es5.js",
+    "inputFile": "www/Gruntfile.js"
+  },
+  {
+    "outputFile": "Gruntfile.es5.js",
+    "inputFile": "Gruntfile.js"
+  }
+]
