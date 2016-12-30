@@ -106,6 +106,7 @@ define([
             cbId = '_gmap_' + counter;
             $window[cbId] = makeMapAndMarkers;
             apiKey = 'key=' + scope.apiKey + '&';
+           // window.alert(apiKey);
             wf = document.createElement('script');
             wf.src = ('https:' === document.location.protocol ? 'https' : 'http') +
                  '://maps.googleapis.com/maps/api/js?' + apiKey + 'v=3&sensor=true&callback=' + cbId;
@@ -117,7 +118,7 @@ define([
           if (!$window.google) {
             counter += 1;
             injectGoogle();
-            window.alert("inject google");
+            //window.alert("inject google");
           } else {
             makeMapAndMarkers();
           }
